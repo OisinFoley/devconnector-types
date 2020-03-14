@@ -1,0 +1,15 @@
+{
+  "name": "devconnector-types",
+  "version": "1.0.0",
+  "description": "types used in devconnector apps",
+  "types": "dist/index.d.ts",
+  "author": "Oisín Foley",
+  "prepublish": "tsc",
+  "license": "ISC",
+  "dependencies": {
+    "mongoose": "^5.9.4"
+  },
+  "devDependencies": {
+    "@types/mongoose": "^5.7.6"
+  }
+}
